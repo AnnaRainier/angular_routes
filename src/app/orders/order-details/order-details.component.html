@@ -1,0 +1,6 @@
+<div>
+ <h3>user name: </h3>  {{order?.id | changeField: 'user_name' }} 
+ <h3>order name: </h3> {{ order?.order_name }}
+ <h3>price: </h3> {{ order.price | currency: 'UAH' }} 
+</div>
+<a routerLink="../">Back</a>
